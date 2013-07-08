@@ -1,0 +1,19 @@
+*** jquery.mobile-1.4.0-pre.js	2013-07-08 16:05:24.000000000 +0200
+--- jquery-mobile.js	2013-07-08 16:07:11.000000000 +0200
+***************
+*** 19,24 ****
+--- 19,32 ----
+  		});
+  	} else {
+  		// Browser globals
++         // kan.so patch
++         // Force jquery load, if not already done.
++         var jq = require("jquery");
++         if (root != window) {
++             // Enable loading from within kanso "load" function 
++             root = window;
++         }
++         // end kan.so patch
+  		factory( root.jQuery, root, doc );
+  	}
+  }( this, document, function ( jQuery, window, document, undefined ) {
