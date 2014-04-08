@@ -23,10 +23,14 @@
         // Force jquery load, if not already done.
         var jq = require("jquery");
         if (root != window) {
-            // Enable loading from within kanso "load" function 
+            // Enable loading from within kanso "load" function
             root = window;
         }
+        if (typeof root.jQuery == 'undefined') {
+            root.jQuery = jq;
+        }
         // end kan.so patch
+
 		factory( root.jQuery, root, doc );
 	}
 }( this, document, function ( jQuery, window, document, undefined ) {
