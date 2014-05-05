@@ -1,6 +1,6 @@
 {
     "name": "jquery-mobile",
-    "version": "@VERSION@-kanso.2",
+    "version": "@VERSION@-kanso.3",
     "categories": ["utils"],
     "maintainers": [
         {
@@ -11,8 +11,10 @@
     "url": "http://jquerymobile.com/",
     "modules": "jquery-mobile.js",
     "modules_attachment": false,
+    "attachments" : ["css"],
     "dependencies": {
         "modules": ">=0.0.8",
+        "attachments": null,
         "jquery": ">=1.10.1-kanso"
     },
     "description": "jQuery is a unified, HTML5-based user interface system for all popular mobile device platforms, built on the rock-solid jQuery and jQuery UI foundation. Its lightweight code is built with progressive enhancement, and has a flexible, easily themeable design." 
