@@ -3,7 +3,7 @@ kanso-jquery-mobile
 
 jQuery Mobile wrapped for kan.so
 
-This is currently version 1.4.2.  The jQuery Mobile website is:
+This is currently version 1.4.4.  The jQuery Mobile website is:
 
 http://jquerymobile.com/
 

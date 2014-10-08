@@ -1,6 +1,6 @@
 {
     "name": "jquery-mobile",
-    "version": "@VERSION@-kanso.3",
+    "version": "@VERSION@-kanso.1",
     "categories": ["utils"],
     "maintainers": [
         {
